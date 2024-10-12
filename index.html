@@ -7,7 +7,7 @@
         <title>2898 Scouter</title>
     </head>
     <body>
-        <div class="box" style="display:none" id="file-dialog" class="fly">
+        <div class="box" style="display:none" id="file-dialog">
             <h2 class="subtitle is-2">Create file</h2>
             <p>File type:</p>
             <div class="select">
@@ -92,7 +92,7 @@
         <label for="ss10" id="ss10-label" style="display:none">Disabled</label>
         <input class="input" id="ss10" type="checkbox" style="display:none"><br style="display:none">
     --><br>
-        <button onclick="document.getElementById('file-dialog').style.display='block';" class="button">Create file</button>
+        <button onclick="document.getElementById('file-dialog').style='class=fly';" class="button">Create file</button>
         <button class="button">Add to local storage</button>
         <button class="button" onclick="help();">Help</button>
         <div id="qrcode"></div>
