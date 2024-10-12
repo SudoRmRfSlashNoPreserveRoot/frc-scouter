@@ -2,6 +2,19 @@
     padding: 10px;
 }
 
+.fly {
+    animation: superman-fly-right ease-in-out 0.5s forwards;
+}
+
+@keyframes superman-fly-top {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100vh);
+    }
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin-left: 3px;
     margin-right: 3px;
