@@ -3,7 +3,7 @@
 }
 
 .fly {
-    animation: superman-fly-right ease-in-out 0.5s forwards;
+    animation: superman-fly-top ease-in-out 0.5s forwards;
 }
 
 @keyframes superman-fly-top {
