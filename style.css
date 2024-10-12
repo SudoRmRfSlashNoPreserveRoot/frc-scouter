@@ -8,10 +8,10 @@
 
 @keyframes superman-fly-top {
     from {
-        transform: translateY(0);
+        transform: translateY(-400);
     }
     to {
-        transform: translateY(100vh);
+        transform: translateY(0);
     }
 }
 
